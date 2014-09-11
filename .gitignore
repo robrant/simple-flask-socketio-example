@@ -1,0 +1,6 @@
+
+# Ignore the dependency cache
+*.gz
+
+# Ignore the compiled files
+*.pyc

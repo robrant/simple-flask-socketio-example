@@ -1,0 +1,17 @@
+Django==1.5.4
+Flask==0.10.1
+Flask-SocketIO==0.3.8
+Werkzeug==0.9.6
+geojson==1.0.1
+gevent==1.0.1
+gevent-socketio==0.3.6
+gevent-websocket==0.9.3
+greenlet==0.4.3
+itsdangerous==0.24
+requests==2.3.0
+Jinja2==2.7.3
+MarkupSafe==0.23
+
+# Using a 2 stage approach - download and then install
+# pip install --download <DIR> -r requirements.txt
+# pip install --no-index --find-links=[file://]<DIR> -r requirements.txt
